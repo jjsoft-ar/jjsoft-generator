@@ -1,0 +1,39 @@
+{
+    "name": "jjsoft-ar/jjsoft-generator",
+    "description": "JJSoft Laravel Generator forked from InfyOm Laravel Generator",
+    "keywords": [
+        "laravel",
+        "api",
+        "model",
+        "request",
+        "migration",
+        "model",
+        "crud",
+        "repository",
+        "view",
+        "test",
+        "generator",
+        "swagger"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose C Gallo",
+            "email": "aguara_gazu@yahoo.com.ar"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "prettus/l5-repository": "~2.1",
+        "laracasts/flash": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JJSoft\\Generator\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
